@@ -1,0 +1,149 @@
+{
+  "settings": {
+    "url": "<API_URL_HERE>"
+  },
+  "cases": {
+    "balance.query": {
+      "params": [
+        "BTC"
+      ]
+    },
+    "balance.query_all": {
+      "params": []
+    },
+    "asset.list": {
+      "params": []
+    },
+    "asset.max_amount": {
+      "params": [
+        "BTC"
+      ]
+    },
+    "asset.min_amount": {
+      "params": [
+        "BTC"
+      ]
+    },
+    "asset.price_range": {
+      "params": [
+        "BTC"
+      ]
+    },
+    "order.put_limit": {
+      "params": [
+        "BTCUSDT",
+        1,
+        "10",
+        "8000",
+        "web"
+      ]
+    },
+    "order.put_market": {
+      "params": [
+        "BTCUSDT",
+        1,
+        "10",
+        "web"
+      ]
+    },
+    "order.cancel": {
+      "params": [
+        "BTCUSDT",
+        163
+      ]
+    },
+    "order.deals": {
+      "params": [
+        5312054,
+        0,
+        10
+      ]
+    },
+    "order.depth": {
+      "params": [
+        "BTCETH",
+        20,
+        "0"
+      ]
+    },
+    "order.pending": {
+      "params": [
+        "BTCETH",
+        0,
+        20
+      ]
+    },
+    "order.finished": {
+      "params": [
+        "BTCETH",
+        0,
+        0,
+        0,
+        10,
+        0
+      ]
+    },
+    "order.finished_detail": {
+      "params": [
+        5312015
+      ]
+    },
+    "order.pending_detail": {
+      "params": [
+        "BTCETH",
+        5312287
+      ]
+    },
+    "order.book": {
+      "params": [
+        "BTCUSDT",
+        2,
+        0,
+        5
+      ]
+    },
+    "order.history": {
+      "params": [
+        "BTCETH",
+        0,
+        10
+      ]
+    },
+    "market.deals": {
+      "params": [
+        "BTCETH",
+        10,
+        1
+      ]
+    },
+    "market.kline": {
+      "params": [
+        "BTCETH",
+        1530858000,
+        1530859000,
+        2
+      ]
+    },
+    "market.status": {
+      "params": [
+        "BTCETH",
+        86400
+      ]
+    },
+    "market.list": {
+      "params": []
+    },
+    "market.user_deals": {
+      "params": [
+        "BTCETH",
+        0,
+        10
+      ]
+    },
+    "market.last": {
+      "params": [
+        "BTCETH"
+      ]
+    }
+  }
+}
